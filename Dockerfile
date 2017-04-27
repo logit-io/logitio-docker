@@ -1,4 +1,4 @@
-FROM gliderlabs/logspout:master
+FROM gliderlabs/logspout:latest
 
 LABEL maintainer "support@logit.io"
 LABEL version="1.0"
