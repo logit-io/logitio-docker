@@ -7,7 +7,7 @@ Sending logs securely via syslog tls docker containers to Logit.io
 docker run -d \
   --name="logit" \
   --volume=/var/run/docker.sock:/var/run/docker.sock \
-  logit-docker:latest \
+  logit/logitio-docker:latest \
   syslog+tls://<LOGSTASH-ENDPOINT>:<SYSLOG-TLS-PORT>
 ```
 
